@@ -58,7 +58,7 @@ namespace salvage_portal.Controllers
                 state = addProduct.state,
                 closeDate = addProduct.closeDate,
                 status = addProduct.status,
-                // imageUrl = JsonConvert.SerializeObject(addProduct.imageUrl),
+                imageUrl = addProduct.imageUrl,
                 // sessions = JsonConvert.SerializeObject(addProduct.sessions),
                 created_at = DateTime.Now,
                 updated_at = DateTime.Now
