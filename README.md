@@ -18,6 +18,7 @@ git clone URL
 #### Step 2: BUILDING PROJECT
 This stage will allow you to build the project. navigate into the project folder and run the following bash code.
 ```bash
+dotnet restore
 dotnet build
 ```
 If you get into error request for help by opening an issue on the repo.
