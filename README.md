@@ -43,7 +43,7 @@ Changing the database connection string allows you to connect to your SQL Server
   },
   "AllowedHosts": "*",
   "ConnectionStrings": {
-    "SalvagePortalApiConnectionString":"Server=DESKTOP-BJ53GUE\SQLEXPRESS;Database=SalvagePortal;Trusted_Connection=true"
+    "SalvagePortalApiConnectionString":"Server=DESKTOP-BJ53GUE\\SQLEXPRESS;Database=SalvagePortal;Trusted_Connection=true"
   }
 }
 ```
