@@ -13,7 +13,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<salvagePortalDbContext>(options => options.UseInMemoryDatabase("salvageDB"));
+// builder.Services.AddDbContext<salvagePortalDbContext>(options => options.UseInMemoryDatabase("salvageDB"));
+builder.Services.AddDbContext<SalvagePortalDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SalvagePortalApiConnectionString")));
 
 builder.Services.AddAuthentication(opt =>
 {

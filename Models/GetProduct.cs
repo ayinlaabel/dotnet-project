@@ -9,7 +9,7 @@ namespace salvage_portal.Models
         public string state { get; set; } = string.Empty;
         public string closeDate { get; set; } = string.Empty;
         public string location { get; set; } = string.Empty;
-        public List<Array>? imageUrl { get; set; }
+        public string imageUrl { get; set; } = String.Empty;
         // public string sessions { get; set; } = String.Empty;
         public DateTime created_at { get; set; }
         public DateTime updated_at { get; set; }

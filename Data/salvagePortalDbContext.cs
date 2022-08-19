@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace salvage_portal.Data
 {
-    public class salvagePortalDbContext : DbContext
+    public class SalvagePortalDbContext : DbContext
     {
-        public salvagePortalDbContext(DbContextOptions options) : base(options)
+        public SalvagePortalDbContext(DbContextOptions options) : base(options)
         {
         }
 

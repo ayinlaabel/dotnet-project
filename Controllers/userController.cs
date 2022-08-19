@@ -13,9 +13,9 @@ namespace salvage_portal.Controllers
     [Route("api/users")]
     public class userController : Controller
     {
-        private readonly salvagePortalDbContext dbContext;
+        private readonly SalvagePortalDbContext dbContext;
 
-        public userController(salvagePortalDbContext dbContext)
+        public userController(SalvagePortalDbContext dbContext)
         {
             this.dbContext = dbContext;
         }
