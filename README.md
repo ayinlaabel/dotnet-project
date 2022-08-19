@@ -29,10 +29,30 @@ Getting to this step show you have not run into error or you have resolved the e
 dotnet run
 ```
 
-#### Step 4: CREATING YOUR DB (DATABASE)
+#### Step 4: CHANGING THE DATABASE CONNECTION STRING
+Changing the database connection string allows you to connect to your SQL Server.
+```json
+// inside your appsettings.json
+// you will need to change your Server value to your server name
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "SalvagePortalApiConnectionString":"Server=DESKTOP-BJ53GUE\SQLEXPRESS;Database=SalvagePortal;Trusted_Connection=true"
+  }
+}
+```
+![alt connectionstringimage](https://support.xopero.com/hc/article_attachments/115002264524/mceclip2.png)
+#### Step 5: CREATING YOUR DB (DATABASE)
 Run the following code on the terminal from your project folder
 ```bash
 dotnet ef Migration add salvagePortalDB
+dotnet ef database update
 ```
 
 

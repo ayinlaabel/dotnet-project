@@ -3,7 +3,6 @@ using salvage_portal.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
-using Newtonsoft.Json;
 
 namespace salvage_portal.Controllers
 {
@@ -11,9 +10,9 @@ namespace salvage_portal.Controllers
     [Route("api/product")]
     public class salvageProductsController : Controller
     {
-        private readonly salvagePortalDbContext dbContext;
+        private readonly SalvagePortalDbContext dbContext;
 
-        public salvageProductsController(salvagePortalDbContext dbContext)
+        public salvageProductsController(SalvagePortalDbContext dbContext)
         {
             this.dbContext = dbContext;
         }
