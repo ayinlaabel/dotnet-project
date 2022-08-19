@@ -51,7 +51,7 @@ Changing the database connection string allows you to connect to your SQL Server
 #### Step 5: CREATING YOUR DB (DATABASE)
 Run the following code on the terminal from your project folder
 ```bash
-dotnet ef Migration add salvagePortalDB
+dotnet ef migrations add salvagePortalDB
 dotnet ef database update
 ```
 
