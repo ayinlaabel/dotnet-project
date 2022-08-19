@@ -13,7 +13,7 @@ obj/
 # Removing Migration Folder from github
 /Migrations
 # Removing the Visual Studio Folder
-/.vs
+.vs/
 #Enviroment Variable
 .env
 
