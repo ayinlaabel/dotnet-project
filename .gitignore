@@ -9,6 +9,8 @@ obj/
 # Common node modules locations
 /node_modules
 /wwwroot/node_modules
+/Resources
+
 
 # Removing Migration Folder from github
 /Migrations
@@ -16,6 +18,7 @@ obj/
 .vs/
 #Enviroment Variable
 .env
+
 
 
 # End of https://www.toptal.com/developers/gitignore/api/dotnetcore

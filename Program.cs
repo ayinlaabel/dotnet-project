@@ -3,6 +3,10 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.EntityFrameworkCore;
 using System.Text;
+using salvage_portal.Repository;
+using salvage_portal.Contracts;
+using Microsoft.Extensions.FileProviders;
+using Microsoft.AspNetCore.Http.Features;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,9 +17,17 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// builder.Services.AddDbContext<salvagePortalDbContext>(options => options.UseInMemoryDatabase("salvageDB"));
-builder.Services.AddDbContext<SalvagePortalDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("SalvagePortalApiConnectionString")));
+builder.Services.AddSingleton<DapperContext>();
+// builder.Services.AddScoped<ISalvageRepository, SalvageRepository>();
+builder.Services.AddScoped<IBidItemRepository, BidItemRepository>();
+
+builder.Services.Configure<FormOptions>(o =>
+    {
+        o.ValueLengthLimit = int.MaxValue;
+        o.MultipartBodyLengthLimit = int.MaxValue;
+        o.MemoryBufferThreshold = int.MaxValue;
+    }
+);
 
 builder.Services.AddAuthentication(opt =>
 {
@@ -49,7 +61,12 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseStaticFiles();
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), @"Resources")),
+    RequestPath = new PathString("/Resources")
+});
 app.UseAuthentication();
 app.UseAuthorization();
 
