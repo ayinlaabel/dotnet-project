@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Custodian.Salvage.Data.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Custodian.Salvage.Data.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Custodian.Salvage.Data.Dto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Custodian.Salvage.Data.Dto/1.0.0": {
+      "type": "project",
+      "path": "../Custodian.Salvage.Data.Dto/Custodian.Salvage.Data.Dto.csproj",
+      "msbuildProject": "../Custodian.Salvage.Data.Dto/Custodian.Salvage.Data.Dto.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Custodian.Salvage.Data.Dto >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Krane Abel\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\dev\\custodian\\projects\\Custodian.Salvage\\Custodian.Salvage.DomainFacade\\Custodian.Salvage.DomainFacade.csproj",
+      "projectName": "Custodian.Salvage.DomainFacade",
+      "projectPath": "C:\\dev\\custodian\\projects\\Custodian.Salvage\\Custodian.Salvage.DomainFacade\\Custodian.Salvage.DomainFacade.csproj",
+      "packagesPath": "C:\\Users\\Krane Abel\\.nuget\\packages\\",
+      "outputPath": "C:\\dev\\custodian\\projects\\Custodian.Salvage\\Custodian.Salvage.DomainFacade\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Krane Abel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\dev\\custodian\\projects\\Custodian.Salvage\\Custodian.Salvage.Data.Dto\\Custodian.Salvage.Data.Dto.csproj": {
+              "projectPath": "C:\\dev\\custodian\\projects\\Custodian.Salvage\\Custodian.Salvage.Data.Dto\\Custodian.Salvage.Data.Dto.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
