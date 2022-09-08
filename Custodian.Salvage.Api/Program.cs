@@ -1,3 +1,4 @@
+using Custodian.Salvage.Api.Configurations;
 using Custodian.Salvage.DomainFacade.services;
 using Custodian.Salvage.Managers.Purchase;
 
@@ -5,8 +6,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddScoped<IPurchaseManager, PurchaseManager>();
 builder.Services.AddControllers();
+
+//builder.Services.AddSingleton(new SalvageDatabaseConfig() { Salvage = "" })
+builder.Services.AddScoped<IPurchaseManager>(s => new PurchaseManager(SalvageDatabaseConfig.Salvage));
 
 var app = builder.Build();
 

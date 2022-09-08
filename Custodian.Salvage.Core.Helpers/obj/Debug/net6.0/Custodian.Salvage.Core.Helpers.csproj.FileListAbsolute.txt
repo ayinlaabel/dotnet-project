@@ -1,0 +1,15 @@
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Core.Helpers\bin\Debug\net6.0\Custodian.Salvage.Core.Helpers.deps.json
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Core.Helpers\bin\Debug\net6.0\Custodian.Salvage.Core.Helpers.dll
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Core.Helpers\bin\Debug\net6.0\Custodian.Salvage.Core.Helpers.pdb
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Core.Helpers\bin\Debug\net6.0\Custodian.Salvage.Data.Dto.dll
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Core.Helpers\bin\Debug\net6.0\Custodian.Salvage.Data.Dto.pdb
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Core.Helpers\obj\Debug\net6.0\Custodian.Salvage.Core.Helpers.csproj.AssemblyReference.cache
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Core.Helpers\obj\Debug\net6.0\Custodian.Salvage.Core.Helpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Core.Helpers\obj\Debug\net6.0\Custodian.Salvage.Core.Helpers.AssemblyInfoInputs.cache
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Core.Helpers\obj\Debug\net6.0\Custodian.Salvage.Core.Helpers.AssemblyInfo.cs
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Core.Helpers\obj\Debug\net6.0\Custodian.Salvage.Core.Helpers.csproj.CoreCompileInputs.cache
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Core.Helpers\obj\Debug\net6.0\Custodian.Salvage.Core.Helpers.csproj.CopyComplete
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Core.Helpers\obj\Debug\net6.0\Custodian.Salvage.Core.Helpers.dll
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Core.Helpers\obj\Debug\net6.0\refint\Custodian.Salvage.Core.Helpers.dll
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Core.Helpers\obj\Debug\net6.0\Custodian.Salvage.Core.Helpers.pdb
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Core.Helpers\obj\Debug\net6.0\ref\Custodian.Salvage.Core.Helpers.dll

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5LmExjcoYa4HSyokzgD2dM6k3gtymNgSVblLXMSIHoI=",
+  "Source": "Custodian.Salvage.Api",
+  "BasePath": "_content/Custodian.Salvage.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

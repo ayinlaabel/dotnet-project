@@ -2,6 +2,7 @@
 using System.Data;
 using Rds.Utilities.Database.ReadWrite;
 using Dapper;
+using Custodian.Salvage.Data.Dto.BidDomain;
 
 namespace Custodian.Salvage.Core.Helpers
 {
@@ -9,12 +10,12 @@ namespace Custodian.Salvage.Core.Helpers
     {
         public static BidItemDto GetBidItemById(IDbConnection db, int biditemId)
         {
-            var storedProc = "dbo.gebiditem";
-            var prm = new DynamicParameters();
+            var storedProc = "spGetBidItem";
+            var parameter = new DynamicParameters();
 
-            prm.Add("@bidItem", biditemId);
+            parameter.Add("@bidItem", biditemId);
 
-            var ls = DbStore.LoadData<BidItemDto>(db, storedProc, prm);
+            var ls = DbStore.LoadData<BidItemDto>(db, storedProc, parameter);
 
             if (ls != null && ls.Count == 1)
             {
@@ -26,7 +27,7 @@ namespace Custodian.Salvage.Core.Helpers
 
         public static List<BidItemDto> GetAllBidItem(IDbConnection db)
         {
-            var storedProc = "dbo.gebiditem";
+            var storedProc = "spFetchBidItems";
 
             return DbStore.LoadData<BidItemDto>(db, storedProc, new DynamicParameters());
         }

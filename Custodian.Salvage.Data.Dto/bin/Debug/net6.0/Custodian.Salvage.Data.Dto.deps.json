@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Custodian.Salvage.Data.Dto/1.0.0": {
+        "runtime": {
+          "Custodian.Salvage.Data.Dto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Custodian.Salvage.Data.Dto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

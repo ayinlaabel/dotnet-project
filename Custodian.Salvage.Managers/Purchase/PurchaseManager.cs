@@ -1,11 +1,7 @@
 ﻿using Custodian.Salvage.Core.Helpers;
+using Custodian.Salvage.Data.Dto.BidDomain;
 using Custodian.Salvage.Data.Dto.BidItemDomain;
 using Custodian.Salvage.DomainFacade.services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Custodian.Salvage.Managers.Purchase
 {
@@ -23,6 +19,13 @@ namespace Custodian.Salvage.Managers.Purchase
             using var db = DatabaseHelper.OpenDatabase(_connectionstring);
 
             return BidItemHelper.GetAllBidItem(db);
+        }
+
+        public CreateBidDto CreateBid(CreateBidDto createBid)
+        {
+            using var db = DatabaseHelper.OpenDatabase(_connectionstring);
+
+            return BidHelper.CreateBid(db, createBid);
         }
     }
 }
