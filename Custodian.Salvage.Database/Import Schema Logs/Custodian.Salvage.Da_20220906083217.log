@@ -1,0 +1,84 @@
+9/6/2022 9:32:17 AM	This log contains information about the import schema operation into project 'Custodian.Salvage.Database' on computer 'DESKTOP-BJ53GUE' by user 'Krane Abel'.
+9/6/2022 9:32:18 AM	Import of database schema has started.
+9/6/2022 9:32:38 AM	Gathering database credentials
+9/6/2022 9:32:38 AM	Gathering database options
+9/6/2022 9:32:38 AM	Gathering generic database scoped configuration option
+9/6/2022 9:32:38 AM	Gathering users
+9/6/2022 9:32:38 AM	Gathering roles
+9/6/2022 9:32:39 AM	Gathering application roles
+9/6/2022 9:32:39 AM	Gathering role memberships
+9/6/2022 9:32:39 AM	Gathering filegroups
+9/6/2022 9:32:39 AM	Gathering full-text catalogs
+9/6/2022 9:32:39 AM	Gathering assemblies
+9/6/2022 9:32:39 AM	Gathering certificates
+9/6/2022 9:32:39 AM	Gathering asymmetric keys
+9/6/2022 9:32:39 AM	Gathering symmetric keys
+9/6/2022 9:32:39 AM	Gathering encrypted symmetric keys
+9/6/2022 9:32:39 AM	Gathering schemas
+9/6/2022 9:32:39 AM	Gathering XML schema collections
+9/6/2022 9:32:39 AM	Gathering user-defined data types
+9/6/2022 9:32:39 AM	Gathering user-defined types
+9/6/2022 9:32:39 AM	Gathering table types
+9/6/2022 9:32:39 AM	Gathering unique keys for table types
+9/6/2022 9:32:39 AM	Gathering primary keys for table types
+9/6/2022 9:32:39 AM	Gathering indexes for table types
+9/6/2022 9:32:53 AM	Gathering check constraints for table types
+9/6/2022 9:32:53 AM	Gathering default constraints for table types
+9/6/2022 9:32:53 AM	Gathering partition functions
+9/6/2022 9:32:53 AM	Gathering partition schemes
+9/6/2022 9:32:53 AM	Gathering functions
+9/6/2022 9:32:53 AM	Gathering encrypted functions
+9/6/2022 9:32:53 AM	Gathering aggregates
+9/6/2022 9:32:53 AM	Gathering procedures
+9/6/2022 9:33:18 AM	Gathering encrypted procedures
+9/6/2022 9:33:18 AM	Gathering tables
+9/6/2022 9:33:44 AM	Gathering primary keys
+9/6/2022 9:33:44 AM	Gathering unique constraints
+9/6/2022 9:33:44 AM	Gathering foreign keys
+9/6/2022 9:33:44 AM	Gathering default constraints
+9/6/2022 9:33:44 AM	Gathering check constraints
+9/6/2022 9:33:44 AM	Gathering views
+9/6/2022 9:33:44 AM	Gathering encrypted views
+9/6/2022 9:33:44 AM	Gathering indexes
+9/6/2022 9:33:44 AM	Gathering statistics
+9/6/2022 9:33:44 AM	Gathering full-text index stoplists
+9/6/2022 9:33:44 AM	Gathering search property lists
+9/6/2022 9:33:44 AM	Gathering search properties
+9/6/2022 9:33:44 AM	Gathering full-text indexes
+9/6/2022 9:33:44 AM	Gathering column store indexes
+9/6/2022 9:34:27 AM	Gathering spatial indexes
+9/6/2022 9:34:27 AM	Gathering XML indexes
+9/6/2022 9:34:27 AM	Gathering Selective XML indexes
+9/6/2022 9:34:27 AM	Gathering encrypted triggers
+9/6/2022 9:34:27 AM	Gathering triggers
+9/6/2022 9:34:27 AM	Gathering encrypted and clr ddl triggers
+9/6/2022 9:34:27 AM	Gathering ddl triggers
+9/6/2022 9:34:27 AM	Creating edge constraints
+9/6/2022 9:34:27 AM	Gathering synonyms
+9/6/2022 9:34:27 AM	Gathering defaults
+9/6/2022 9:34:38 AM	Gathering data constraint uddt bindings
+9/6/2022 9:34:38 AM	Gathering rules
+9/6/2022 9:34:38 AM	Gathering data constraint uddt bindings
+9/6/2022 9:34:38 AM	Gathering message types
+9/6/2022 9:34:38 AM	Gathering queues
+9/6/2022 9:34:38 AM	Gathering contracts
+9/6/2022 9:34:38 AM	Gathering services
+9/6/2022 9:34:38 AM	Gathering event notifications
+9/6/2022 9:34:38 AM	Gathering remote service bindings
+9/6/2022 9:34:38 AM	Gathering broker priorities
+9/6/2022 9:34:38 AM	Gathering signatures
+9/6/2022 9:34:38 AM	Gathering data compression options
+9/6/2022 9:34:38 AM	Gathering sequence types
+9/6/2022 9:34:38 AM	Gathering security policies
+9/6/2022 9:34:38 AM	Gather column encryption keys
+9/6/2022 9:34:38 AM	Gathering column master keys
+9/6/2022 9:34:38 AM	Gathering external data sources
+9/6/2022 9:34:38 AM	Gathering external file formats
+9/6/2022 9:34:38 AM	Gathering external tables
+9/6/2022 9:34:38 AM	Gathering extended properties
+9/6/2022 9:34:40 AM	Gathering assemblies
+9/6/2022 9:34:41 AM	Scanning project for duplicate elements
+9/6/2022 9:34:41 AM	Finished duplicate element processing
+9/6/2022 9:34:42 AM	Finished importing database.
+9/6/2022 9:34:42 AM	A summary of the import was saved to the following location: C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Database\Import Schema Logs\Custodian.Salvage.Da_20220906083217.log
+9/6/2022 9:34:42 AM	Click Finish to continue...
