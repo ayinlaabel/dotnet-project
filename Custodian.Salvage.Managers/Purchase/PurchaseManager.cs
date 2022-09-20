@@ -20,8 +20,28 @@ namespace Custodian.Salvage.Managers.Purchase
 
             return BidItemHelper.GetAllBidItem(db);
         }
+        public BidItemDto GetSignleBidItemById(int id)
+        {
+            using var db = DatabaseHelper.OpenDatabase(_connectionstring);
 
-        public CreateBidDto CreateBid(CreateBidDto createBid)
+            return BidItemHelper.GetSignleBidItemById(db, id);
+        }
+
+        public List<BidItemDto> GetBidItemByStatus(string status)
+        {
+            using var db = DatabaseHelper.OpenDatabase(_connectionstring);
+
+            return BidItemHelper.GetBidItemByStatus(db, status);
+        }
+
+        public string CreateBidItem(CreateBidItemDto createBidItem)
+        {
+            using var db = DatabaseHelper.OpenDatabase(_connectionstring);
+
+            return BidItemHelper.CreateBidItem(db, createBidItem);
+        }
+
+        public string CreateBid(CreateBidDto createBid)
         {
             using var db = DatabaseHelper.OpenDatabase(_connectionstring);
 

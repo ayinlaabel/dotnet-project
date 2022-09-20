@@ -1,8 +1,10 @@
 ﻿CREATE VIEW [dbo].[BidItemsView]
 	AS SELECT
-		a.id BidItemId,
+		a.id,
 		a.Close_Date BaselineCloseDate,
 		a.Created_At DateCreated,
+		a.Brand,
+		a.Model,
 		a.LocationId,
 		a.Title,
 		b.LocationAddress,

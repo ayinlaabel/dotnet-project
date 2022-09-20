@@ -30,6 +30,9 @@
             "projectReferences": {
               "C:\\dev\\custodian\\projects\\Custodian.Salvage\\Custodian.Salvage.Data.Dto\\Custodian.Salvage.Data.Dto.csproj": {
                 "projectPath": "C:\\dev\\custodian\\projects\\Custodian.Salvage\\Custodian.Salvage.Data.Dto\\Custodian.Salvage.Data.Dto.csproj"
+              },
+              "C:\\dev\\custodian\\projects\\Custodian.Salvage\\Custodian.Salvage.DomainFacade\\Custodian.Salvage.DomainFacade.csproj": {
+                "projectPath": "C:\\dev\\custodian\\projects\\Custodian.Salvage\\Custodian.Salvage.DomainFacade\\Custodian.Salvage.DomainFacade.csproj"
               }
             }
           }
@@ -54,7 +57,7 @@
             },
             "RdsUtilitiesDatabaseLibrary": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.2, )"
             }
           },
           "imports": [
@@ -72,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -111,6 +114,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -126,7 +135,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -184,7 +193,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -245,7 +254,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

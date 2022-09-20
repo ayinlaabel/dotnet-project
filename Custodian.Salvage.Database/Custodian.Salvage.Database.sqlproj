@@ -69,14 +69,22 @@
     <Build Include="dbo\Tables\tblBidItemImage.sql" />
     <Build Include="dbo\Tables\tblBid.sql" />
     <Build Include="dbo\Tables\tblBidItems.sql" />
-    <Build Include="dbo\Stored Procedures\spSaveBidItemImage.sql" />
-    <Build Include="dbo\Stored Procedures\spSaveBid.sql" />
     <Build Include="dbo\Stored Procedures\spGetBidItem.sql" />
     <Build Include="dbo\Stored Procedures\spFetchBidItems.sql" />
-    <Build Include="dbo\Stored Procedures\spSaveBidItem.sql" />
-    <Build Include="dbo\Stored Procedures\spGetBidItemImage.sql" />
     <Build Include="dbo\Views\BidItemsView.sql" />
     <Build Include="dbo\Tables\tblLocations.sql" />
+    <Build Include="dbo\Tables\tblBidUploads.sql" />
+    <Build Include="dbo\Tables\tblAuditLog.sql" />
+    <Build Include="dbo\Tables\tblBidUploadDetail.sql" />
+    <Build Include="dbo\Tables\tblBidItemLog.sql" />
+    <Build Include="dbo\Stored Procedures\spGetBidItemImage.sql" />
+    <Build Include="dbo\Views\BidItemImageView.sql" />
+    <Build Include="dbo\Stored Procedures\spSaveBidItem.sql" />
+    <Build Include="dbo\Stored Procedures\spSaveLocation.sql" />
+    <Build Include="dbo\Stored Procedures\spSaveBidItemImage.sql" />
+    <Build Include="dbo\Stored Procedures\spGetBidItemsByStatus.sql" />
+    <Build Include="dbo\Views\BidItemFilterView.sql" />
+    <Build Include="dbo\Stored Procedures\spSaveBid.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Snapshots\Custodian.Salvage.Database_Base.dacpac" />

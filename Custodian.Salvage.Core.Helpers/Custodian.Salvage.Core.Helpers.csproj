@@ -9,11 +9,12 @@
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.123" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.0.0" />
-    <PackageReference Include="RdsUtilitiesDatabaseLibrary" Version="1.0.1" />
+    <PackageReference Include="RdsUtilitiesDatabaseLibrary" Version="1.0.2" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Custodian.Salvage.Data.Dto\Custodian.Salvage.Data.Dto.csproj" />
+    <ProjectReference Include="..\Custodian.Salvage.DomainFacade\Custodian.Salvage.DomainFacade.csproj" />
   </ItemGroup>
 
 </Project>

@@ -7,22 +7,24 @@ namespace Custodian.Salvage.Core.Helpers
 {
     public static class BidHelper
     {
-        public static CreateBidDto CreateBid(IDbConnection db, CreateBidDto createBid)
+        public static string CreateBid(IDbConnection db, CreateBidDto createBid)
         {
             var storedProc = "spSaveBid";
-            var parameter = new DynamicParameters();
+            var parameters = new DynamicParameters();
 
-            parameter.Add("@FirstName", createBid.FirstName);
-            parameter.Add("@LastName", createBid.LastName);
-            parameter.Add("@Email", createBid.Email);
-            parameter.Add("@Phone", createBid.Phone);
-            parameter.Add("@Narration", createBid.Narration);
-            parameter.Add("@BidValue", createBid.BidValue);
+            parameters.Add("@FirstName", createBid.FirstName);
+            parameters.Add("@LastName", createBid.LastName);
+            parameters.Add("@Email", createBid.Email);
+            parameters.Add("@Phone", createBid.Phone);
+            parameters.Add("@BidItemId", createBid.BidItemId);
+            parameters.Add("@Narration", createBid.Narration);
+            parameters.Add("@BidValue", createBid.BidValue);
+            parameters.Add("@Created_At", (DateTime.Now).ToString("yyyy-MM-dd HH:mm:ss.fff"));
 
 
-            DbStore.SaveData(db, storedProc, parameter);
+            DbStore.SaveData(db, storedProc, parameters);
 
-            return createBid;
+            return "Created Successfullly!";
         }
     }
 }

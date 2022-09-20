@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Custodian.Salvage.Api", "Custodian.Salvage.Api\Custodian.Salvage.Api.csproj", "{880DD18D-FB8E-4AB1-880A-591E0A836640}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2ED735CE-A09E-4916-94C8-426D29772F50}"
-	ProjectSection(SolutionItems) = preProject
-		.gitignore = .gitignore
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08-Dto", "08-Dto", "{2BA40045-4F1F-44CD-B6A4-4F6B27088A26}"
 EndProject
