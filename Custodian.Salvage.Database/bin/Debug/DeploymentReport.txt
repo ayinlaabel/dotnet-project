@@ -1,0 +1,85 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[tblBidItemImage]
+       [dbo].[tblBidItems]
+       [dbo].[tblBidRequest]
+       [dbo].[tblLocations]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[tblBidItems].[closed_date] is being dropped, data loss could occur.
+       The column [dbo].[tblBidItems].[Close_Date] on table [dbo].[tblBidItems] must be added, but the column has no default
+         value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue
+         you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The type for column Brand in table [dbo].[tblBidItems] is currently  VARCHAR (100) NOT NULL but is being changed to 
+         VARCHAR (50) NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible
+         with type  VARCHAR (50) NOT NULL.
+       The type for column Model in table [dbo].[tblBidItems] is currently  VARCHAR (100) NOT NULL but is being changed to 
+         VARCHAR (50) NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible
+         with type  VARCHAR (50) NOT NULL.
+       The type for column Regno in table [dbo].[tblBidItems] is currently  VARCHAR (250) NOT NULL but is being changed to 
+         VARCHAR (100) NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible
+         with type  VARCHAR (100) NOT NULL.
+       The type for column Title in table [dbo].[tblBidItems] is currently  VARCHAR (250) NOT NULL but is being changed to 
+         VARCHAR (50) NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible
+         with type  VARCHAR (50) NOT NULL.
+       The type for column Email in table [dbo].[tblBidRequest] is currently  VARCHAR (250) NOT NULL but is being changed to 
+         VARCHAR (100) NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible
+         with type  VARCHAR (100) NOT NULL.
+       The type for column LocationDescription in table [dbo].[tblLocations] is currently  VARCHAR (250) NOT NULL but is being
+         changed to  VARCHAR (150) NULL. Data loss could occur and deployment may fail if the column contains data that is
+         incompatible with type  VARCHAR (150) NULL.
+
+** User actions
+     Table rebuild
+       [dbo].[tblBidItemImage] (Table)
+       [dbo].[tblBidItems] (Table)
+       [dbo].[tblBidRequest] (Table)
+       [dbo].[tblLocations] (Table)
+     Create
+       [dbo].[tblAuditLog] (Table)
+       [dbo].[tblBidItemLog] (Table)
+       [dbo].[tblBidUploadDetail] (Table)
+       [dbo].[tblBidUploads] (Table)
+       [dbo].[FK_tblBidItems_tblLocation_idx] (Foreign Key)
+       [dbo].[FK_tblBid_tblBidItems_Idx] (Foreign Key)
+       [dbo].[FK_tblBidItemImage_tblBidItems_idx] (Foreign Key)
+       [dbo].[BidItemFilterView] (View)
+       [dbo].[BidItemImageView] (View)
+       [dbo].[BidItemsView] (View)
+       [dbo].[BidRequestView] (View)
+       [dbo].[SaveBidItem] (Procedure)
+       [dbo].[spGetBidItemsByStatus] (Procedure)
+       [dbo].[spGetRequestBid] (Procedure)
+       [dbo].[UpdateBidRequest] (Procedure)
+     Alter
+       [dbo].[spFetchBidItems] (Procedure)
+       [dbo].[spGetBidItem] (Procedure)
+       [dbo].[spGetBidItemImage] (Procedure)
+       [dbo].[spSaveBidItemImage] (Procedure)
+       [dbo].[spSaveBid] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[spSaveLocation] (Procedure)
+
+The column [dbo].[tblBidItems].[closed_date] is being dropped, data loss could occur.
+The column [dbo].[tblBidItems].[Close_Date] on table [dbo].[tblBidItems] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The type for column Brand in table [dbo].[tblBidItems] is currently  VARCHAR (100) NOT NULL but is being changed to  VARCHAR (50) NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  VARCHAR (50) NOT NULL.
+The type for column Model in table [dbo].[tblBidItems] is currently  VARCHAR (100) NOT NULL but is being changed to  VARCHAR (50) NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  VARCHAR (50) NOT NULL.
+The type for column Regno in table [dbo].[tblBidItems] is currently  VARCHAR (250) NOT NULL but is being changed to  VARCHAR (100) NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  VARCHAR (100) NOT NULL.
+The type for column Title in table [dbo].[tblBidItems] is currently  VARCHAR (250) NOT NULL but is being changed to  VARCHAR (50) NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  VARCHAR (50) NOT NULL.
+The column BidValue on table [dbo].[tblBidRequest] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column Created_At on table [dbo].[tblBidRequest] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The type for column Email in table [dbo].[tblBidRequest] is currently  VARCHAR (250) NOT NULL but is being changed to  VARCHAR (100) NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  VARCHAR (100) NOT NULL.
+The column Updated_At on table [dbo].[tblBidRequest] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The type for column LocationDescription in table [dbo].[tblLocations] is currently  VARCHAR (250) NOT NULL but is being changed to  VARCHAR (150) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  VARCHAR (150) NULL.
+If this deployment is executed, changes to [dbo].[tblBidItems] might introduce run-time errors in [dbo].[spSaveBidItem].
+If this deployment is executed, changes to [dbo].[tblBidRequest] might introduce run-time errors in [dbo].[spGetActiveBidRequest].
+If this deployment is executed, changes to [dbo].[tblBidRequest] might introduce run-time errors in [dbo].[spGetBidRequest].
+If this deployment is executed, changes to [dbo].[tblBidRequest] might introduce run-time errors in [dbo].[spSaveBidRequest].
+If this deployment is executed, changes to [dbo].[tblBidRequest] might introduce run-time errors in [dbo].[spUpdateBidRequest].
+

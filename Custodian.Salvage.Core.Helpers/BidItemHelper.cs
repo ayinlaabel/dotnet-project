@@ -11,6 +11,7 @@ namespace Custodian.Salvage.Core.Helpers
         public static BidItemDto GetSignleBidItemById(IDbConnection db, int biditemId)
         {
             var storedProc = "spGetBidItem";
+            var imgStoredProc = "spGetBidItemImage";
             var parameter = new DynamicParameters();
 
             parameter.Add("@id", biditemId);
@@ -19,7 +20,12 @@ namespace Custodian.Salvage.Core.Helpers
 
             if (ls != null && ls.Count == 1)
             {
-                return ls[0];
+                var bidItem = ls[0];
+
+
+                bidItem.Images.AddRange(DbStore.LoadData<BidItemImageDto>(db, imgStoredProc, parameter));
+
+                return bidItem;
             }
 
             throw new InvalidOperationException($"Item Id not available - {nameof(BidItemHelper)}");
@@ -28,8 +34,19 @@ namespace Custodian.Salvage.Core.Helpers
         public static List<BidItemDto> GetAllBidItem(IDbConnection db)
         {
             var storedProc = "spFetchBidItems";
+            var imgStoredProc = "spGetBidItemImage";
 
-            return DbStore.LoadData<BidItemDto>(db, storedProc, new DynamicParameters());
+            var bidItems = DbStore.LoadData<BidItemDto>(db, storedProc, new DynamicParameters());
+
+            foreach(var biditem in bidItems)
+            {
+                var bidItemImageId = new DynamicParameters();
+                bidItemImageId.Add("@id", biditem.Id);
+                var bidItemImages = DbStore.LoadData<BidItemImageDto>(db, imgStoredProc, bidItemImageId);
+                biditem.Images.AddRange(bidItemImages);
+            }
+
+            return bidItems;
         }
 
         public static List<BidItemDto> GetBidItemByStatus(IDbConnection db, String status)
@@ -44,10 +61,6 @@ namespace Custodian.Salvage.Core.Helpers
             return filteredBidItem;
         }
 
-        //public static string CreateBidItem(IDbConnection db, CreateBidItemDto createBidItem)
-        //{
-        //    return CreateBidItem(db, createBidItem, fileName);
-        //}
 
         public static string CreateBidItem(IDbConnection db, CreateBidItemDto createBidItem)
         {

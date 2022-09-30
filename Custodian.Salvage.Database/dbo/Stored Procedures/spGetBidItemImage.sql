@@ -4,6 +4,7 @@ AS
 BEGIN
 
 	SELECT  
+		a.ImageTag,
 		a.ImageUrl
 	FROM BidItemImageView a
 	WHERE a.BidItemId = @id;

@@ -56,11 +56,11 @@ namespace Custodian.Salvage.Api.Controllers
 
         [HttpPost]
         [Route("{id}/bid")]
-        public IActionResult CreateBid(int id, CreateBidDto createBid)
+        public IActionResult CreateBid(int id, CreateBidRequestDto createBid)
         {
             createBid.BidItemId = id;
 
-            var createdBid = _purchaseManager.CreateBid(createBid);
+            var createdBid = _purchaseManager.CreateBidRequest(createBid);
 
             return Ok(createdBid);
         }

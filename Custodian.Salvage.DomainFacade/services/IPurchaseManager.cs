@@ -1,6 +1,6 @@
 ﻿using Custodian.Salvage.Data.Dto.BidDomain;
 using Custodian.Salvage.Data.Dto.BidItemDomain;
-using Custodian.Salvage.Data.Dto.LocationDomain;
+using Custodian.Salvage.Data.Dto.BidRequestDomain;
 
 namespace Custodian.Salvage.DomainFacade.services
 {
@@ -10,6 +10,7 @@ namespace Custodian.Salvage.DomainFacade.services
         public BidItemDto GetSignleBidItemById(int id);
         public List<BidItemDto> GetBidItemByStatus(string status);
         public string CreateBidItem(CreateBidItemDto createBidItem);
-        public string CreateBid(CreateBidDto createBid);
+        public string CreateBidRequest(CreateBidRequestDto createBid);
+        public List<BidRequestDto> GetBidRequest(GetBidRequestDto createBid);
     }
 }

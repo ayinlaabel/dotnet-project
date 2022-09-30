@@ -8,11 +8,14 @@ BEGIN
 	SELECT 
 		a.id, 
 		a.Title, 
-		a.BaselineCloseDate, 
+		a.BaselineCloseDate as close_date, 
 		a.Brand, 
 		a.Model, 
-		a.LocationAddress, 
-		a.LocationDescription 
+		a.Description,
+		a.Regno,
+		a.ContactPerson,
+		a.LocationAddress as address, 
+		a.LocationDescription as state
 	From BidItemsView a
 	WHERE a.id = @id;
 END

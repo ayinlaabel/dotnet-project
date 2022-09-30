@@ -1,14 +1,16 @@
 ﻿CREATE VIEW [dbo].[BidItemsView]
 	AS SELECT
 		a.id,
-		a.Close_Date BaselineCloseDate,
-		a.Created_At DateCreated,
+		a.Title,
+		a.Regno,
 		a.Brand,
 		a.Model,
-		a.LocationId,
-		a.Title,
+		a.ContactPerson,
 		b.LocationAddress,
-		b.LocationDescription
+		b.LocationDescription,
+		a.Description,
+		a.Close_Date BaselineCloseDate,
+		a.Created_At DateCreated
 	FROM dbo.tblBidItems a
 	JOIN dbo.tblLocations b on b.Id = a.LocationId
 GO
