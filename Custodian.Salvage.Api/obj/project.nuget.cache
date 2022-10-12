@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Eg/Rf6EuQ2yOpsF0vGG20529RgK8cJ3ioqUiOxUKsSltl4vvz05zRKhug0uQUoFWeolB+t5NCeWsX/QF+EUTAg==",
+  "dgSpecHash": "s99i5X1eu96VHWLvhYNVp0I1tJzJn2KtUiJCIe3kSgNTkZeYD4wCwKfGVMfXdcA6rvCpjavhBAfOcRKwXkIkdQ==",
   "success": true,
   "projectFilePath": "C:\\dev\\custodian\\projects\\Custodian.Salvage\\Custodian.Salvage.Api\\Custodian.Salvage.Api.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,7 @@
     "C:\\Users\\Krane Abel\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\Krane Abel\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Krane Abel\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Krane Abel\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.2\\microsoft.netframework.referenceassemblies.net472.1.0.2.nupkg.sha512",
     "C:\\Users\\Krane Abel\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Krane Abel\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Krane Abel\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
