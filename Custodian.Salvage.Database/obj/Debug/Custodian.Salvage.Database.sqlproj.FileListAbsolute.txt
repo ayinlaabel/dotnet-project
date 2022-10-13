@@ -1,6 +1,0 @@
-C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Database\bin\Debug\Custodian.Salvage.Database.dacpac
-C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Database\bin\Debug\Custodian.Salvage.Database.dll
-C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Database\bin\Debug\Custodian.Salvage.Database.pdb
-C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Database\obj\Debug\Custodian.Salvage.Database.sqlproj.AssemblyReference.cache
-C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Database\obj\Debug\Custodian.Salvage.Database.dll
-C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Database\obj\Debug\Custodian.Salvage.Database.pdb
