@@ -1,0 +1,12 @@
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Exceptions\bin\Debug\net6.0\Custodian.Salvage.Exceptions.deps.json
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Exceptions\bin\Debug\net6.0\Custodian.Salvage.Exceptions.dll
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Exceptions\bin\Debug\net6.0\Custodian.Salvage.Exceptions.pdb
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Exceptions\obj\Debug\net6.0\Custodian.Salvage.Exceptions.csproj.AssemblyReference.cache
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Exceptions\obj\Debug\net6.0\Custodian.Salvage.Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Exceptions\obj\Debug\net6.0\Custodian.Salvage.Exceptions.AssemblyInfoInputs.cache
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Exceptions\obj\Debug\net6.0\Custodian.Salvage.Exceptions.AssemblyInfo.cs
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Exceptions\obj\Debug\net6.0\Custodian.Salvage.Exceptions.csproj.CoreCompileInputs.cache
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Exceptions\obj\Debug\net6.0\Custodian.Salvage.Exceptions.dll
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Exceptions\obj\Debug\net6.0\refint\Custodian.Salvage.Exceptions.dll
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Exceptions\obj\Debug\net6.0\Custodian.Salvage.Exceptions.pdb
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Exceptions\obj\Debug\net6.0\ref\Custodian.Salvage.Exceptions.dll
