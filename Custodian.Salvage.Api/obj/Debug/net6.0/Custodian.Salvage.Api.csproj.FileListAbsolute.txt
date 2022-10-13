@@ -65,3 +65,5 @@ C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Api\obj\Debug\net6
 C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Api\obj\Debug\net6.0\Custodian.Salvage.Api.csproj.CopyComplete
 C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Api\obj\Debug\net6.0\Custodian.Salvage.Api.genruntimeconfig.cache
 C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Api\obj\Debug\net6.0\ref\Custodian.Salvage.Api.dll
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Api\bin\Debug\net6.0\NgrokAspNetCore.Lib.dll

@@ -1,0 +1,12 @@
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Security\bin\Debug\net6.0\Custodian.Salvage.Security.deps.json
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Security\bin\Debug\net6.0\Custodian.Salvage.Security.dll
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Security\bin\Debug\net6.0\Custodian.Salvage.Security.pdb
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Security\obj\Debug\net6.0\Custodian.Salvage.Security.csproj.AssemblyReference.cache
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Security\obj\Debug\net6.0\Custodian.Salvage.Security.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Security\obj\Debug\net6.0\Custodian.Salvage.Security.AssemblyInfoInputs.cache
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Security\obj\Debug\net6.0\Custodian.Salvage.Security.AssemblyInfo.cs
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Security\obj\Debug\net6.0\Custodian.Salvage.Security.csproj.CoreCompileInputs.cache
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Security\obj\Debug\net6.0\Custodian.Salvage.Security.dll
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Security\obj\Debug\net6.0\refint\Custodian.Salvage.Security.dll
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Security\obj\Debug\net6.0\Custodian.Salvage.Security.pdb
+C:\dev\custodian\projects\Custodian.Salvage\Custodian.Salvage.Security\obj\Debug\net6.0\ref\Custodian.Salvage.Security.dll
