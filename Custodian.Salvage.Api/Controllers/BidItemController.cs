@@ -42,6 +42,7 @@ namespace Custodian.Salvage.Api.Controllers
             var filterBidItems = _purchaseManager.GetBidItemByStatus(status);
 
             return Ok(filterBidItems);
+
         }
 
 
