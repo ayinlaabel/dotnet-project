@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MxhIWal4wt4LESZDlV0OBR3tT8QU7uuGUDZB1+eGxDlI8y2WSTvYfEQHe/aVOpv0zcOSM7qm0fu6Z2uBJTbcoQ==",
+  "dgSpecHash": "FP3kJQ+iND6zEgataPRkM/imz4JC9eocB5tPZToSAZ881kelRG+1OFfyqemr/PtGYt1RaFJM8J5qyccWw9HnMg==",
   "success": true,
-  "projectFilePath": "C:\\dev\\custodian\\projects\\Custodian.Salvage\\Custodian.Salvage.Security\\Custodian.Salvage.Security.csproj",
+  "projectFilePath": "C:\\dev\\custodian\\Custodian.Salvage\\Custodian.Salvage.Security\\Custodian.Salvage.Security.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

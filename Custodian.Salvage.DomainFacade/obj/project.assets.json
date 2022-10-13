@@ -496,11 +496,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\custodian\\projects\\Custodian.Salvage\\Custodian.Salvage.DomainFacade\\Custodian.Salvage.DomainFacade.csproj",
+      "projectUniqueName": "C:\\dev\\custodian\\Custodian.Salvage\\Custodian.Salvage.DomainFacade\\Custodian.Salvage.DomainFacade.csproj",
       "projectName": "Custodian.Salvage.DomainFacade",
-      "projectPath": "C:\\dev\\custodian\\projects\\Custodian.Salvage\\Custodian.Salvage.DomainFacade\\Custodian.Salvage.DomainFacade.csproj",
+      "projectPath": "C:\\dev\\custodian\\Custodian.Salvage\\Custodian.Salvage.DomainFacade\\Custodian.Salvage.DomainFacade.csproj",
       "packagesPath": "C:\\Users\\Krane Abel\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\custodian\\projects\\Custodian.Salvage\\Custodian.Salvage.DomainFacade\\obj\\",
+      "outputPath": "C:\\dev\\custodian\\Custodian.Salvage\\Custodian.Salvage.DomainFacade\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Krane Abel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -517,8 +517,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\dev\\custodian\\projects\\Custodian.Salvage\\Custodian.Salvage.Data.Dto\\Custodian.Salvage.Data.Dto.csproj": {
-              "projectPath": "C:\\dev\\custodian\\projects\\Custodian.Salvage\\Custodian.Salvage.Data.Dto\\Custodian.Salvage.Data.Dto.csproj"
+            "C:\\dev\\custodian\\Custodian.Salvage\\Custodian.Salvage.Data.Dto\\Custodian.Salvage.Data.Dto.csproj": {
+              "projectPath": "C:\\dev\\custodian\\Custodian.Salvage\\Custodian.Salvage.Data.Dto\\Custodian.Salvage.Data.Dto.csproj"
             }
           }
         }

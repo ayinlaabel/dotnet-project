@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\custodian\\projects\\Custodian.Salvage\\Custodian.Salvage.Exceptions\\Custodian.Salvage.Exceptions.csproj",
+      "projectUniqueName": "C:\\dev\\custodian\\Custodian.Salvage\\Custodian.Salvage.Exceptions\\Custodian.Salvage.Exceptions.csproj",
       "projectName": "Custodian.Salvage.Exceptions",
-      "projectPath": "C:\\dev\\custodian\\projects\\Custodian.Salvage\\Custodian.Salvage.Exceptions\\Custodian.Salvage.Exceptions.csproj",
+      "projectPath": "C:\\dev\\custodian\\Custodian.Salvage\\Custodian.Salvage.Exceptions\\Custodian.Salvage.Exceptions.csproj",
       "packagesPath": "C:\\Users\\Krane Abel\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\custodian\\projects\\Custodian.Salvage\\Custodian.Salvage.Exceptions\\obj\\",
+      "outputPath": "C:\\dev\\custodian\\Custodian.Salvage\\Custodian.Salvage.Exceptions\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Krane Abel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
       }
     }
   }

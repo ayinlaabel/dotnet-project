@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cxGk+liPj5tcFxiUY8VQnmuhg1IX2agvJJf+2ktpjEViPd8sG8qTcMkK2pmF9lTqyBkDB90Cum5IrY8XG5oCJg==",
+  "dgSpecHash": "y52a39qo21i0nVVIaxHBMSaQDTUYgE0XkLn64ly2D3cZKqumo/SzK6aFJS/8kC6HRlq9/ZUrX50Hr9FUnfostw==",
   "success": true,
-  "projectFilePath": "C:\\dev\\custodian\\projects\\Custodian.Salvage\\Custodian.Salvage.Data.Dto\\Custodian.Salvage.Data.Dto.csproj",
+  "projectFilePath": "C:\\dev\\custodian\\Custodian.Salvage\\Custodian.Salvage.Data.Dto\\Custodian.Salvage.Data.Dto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Krane Abel\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
     "C:\\Users\\Krane Abel\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
